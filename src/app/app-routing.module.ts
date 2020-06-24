@@ -10,11 +10,11 @@ import { RegistroComponent } from './components/registro/registro.component';
 
 const routes: Routes = [
 	{path : '' , component : HomeComponent},
-	{path : '/home' , component : HomeComponent},
-	{path : '/about-us' , component : AboutUsComponent},
-	{path : '/contacto' , component : ContactoComponent},
-	{path : '/registro' , component : RegistroComponent},
-	{path : '**' , component : HomeComponent}
+	{path : 'home' , component : HomeComponent},
+	{path : 'about-us' , component : AboutUsComponent},
+	{path : 'contacto' , component : ContactoComponent},
+	{path : 'registro' , component : RegistroComponent},
+	{path : '404' , component : HomeComponent}
 ];
 
 @NgModule({
