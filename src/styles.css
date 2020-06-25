@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-image: url('./assets/img/ashkan-forouzani-lClM31boh08-unsplash.jpg');
+}
+
+.elem{
+    list-style: none;
+    display: inline-flex;
+    width: 165px;
+    justify-content: center
+}
+
+header{
+    height: 80px;
+    text-align: right;
+    padding: 30px;
+}
+
+#nav_bar ul li a, #contact_header{
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+h1, label, input, #olvido_pass, #go_login, .parrafo,p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #AA9780;
+}
+
+.btn{
+    width: 210px;
+    height: 50px;
+    background-color: #AA9780;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: #AA9780;
+}
+input{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: #AA9780;
+}
+
+#address{
+    text-align: right;
+    color: white;
+    margin-right: 40px;
+}
