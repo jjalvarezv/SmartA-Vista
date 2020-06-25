@@ -12,13 +12,30 @@ html{
     list-style: none;
     display: inline-flex;
     width: 165px;
-    justify-content: center
+    justify-content: center;
+    line-height: 3px;
 }
 
 header{
-    height: 80px;
+    height: 20px;
     text-align: right;
     padding: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5px;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+ul li a{
+    color: #AA9780 !important;
+    opacity: 1 !important;
+    padding : 10px;
+    border: solid 1px !important;
 }
 
 #nav_bar ul li a, #contact_header{
