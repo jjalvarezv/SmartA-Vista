@@ -13,13 +13,15 @@ html{
     display: inline-flex;
     width: 165px;
     justify-content: center;
-    line-height: 3px;
+    line-height: 2px;
+    border-radius: 6px;
+
 }
 
 header{
-    height: 20px;
+    height: 10px;
     text-align: right;
-    padding: 30px;
+    padding: 20px;
     position: -webkit-sticky;
     position: sticky;
     top: 5px;
@@ -28,14 +30,15 @@ header{
     background-color: white;
     opacity: 0.9;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+    box-shadow: 5px 10px 10px 8px white;
 }
 
 ul li a{
     color: #AA9780 !important;
     opacity: 1 !important;
     padding : 10px;
-    border: solid 1px !important;
+    border-radius: 5px;
 }
 
 #nav_bar ul li a, #contact_header{
@@ -46,7 +49,7 @@ ul li a{
     cursor: pointer;
 }
 
-h1, label, input, #olvido_pass, #go_login, .parrafo,p{
+h1, label, input, #olvido_pass, #go_login, .parrafo,p, textarea{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #AA9780;
 }
@@ -61,16 +64,19 @@ h1, label, input, #olvido_pass, #go_login, .parrafo,p{
     color: white;
     border: #AA9780;
 }
-input{
+input, textarea{
     font-size: 15px;
     padding: 10px;
     border-radius: 5px;
     border: solid 1px;
     border-color: #AA9780;
+    width: 80%;
 }
+
 
 #address{
     text-align: right;
     color: white;
     margin-right: 40px;
+    line-height: 10px;
 }
